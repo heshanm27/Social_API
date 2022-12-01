@@ -5,10 +5,9 @@ const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
-const dbConnetion = async (uri: string) => {
+const dbConnetion = async (uri: string | undefined) => {
   try {
-    await mongoose.connect(uri, options as ConnectOptions);
-    logger.info("Connected to MongoDB");
+    return mongoose.connect(uri!, options as ConnectOptions);
   } catch (error) {
     logger.error(error);
   }
