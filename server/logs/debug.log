@@ -1,0 +1,4 @@
+2022-12-01T07:11:46.743Z :- INFO   : Server running on port 5000
+2022-12-01T07:11:46.745Z :- ERROR  : Server connetion error
+2022-12-01T07:11:46.745Z :- DEBUG  : Server connetion debug
+2022-12-01T07:11:46.745Z :- WARN   : Server connetion warn
