@@ -30,3 +30,36 @@
 2022-12-01T14:49:07.274Z :- INFO   : Server running on port 5000
 2022-12-01T16:04:48.886Z :- INFO   : Connected to MongoDB
 2022-12-01T16:04:48.889Z :- INFO   : Server running on port 5000
+2022-12-03T00:38:32.201Z :- INFO   : Connected to MongoDB
+2022-12-03T00:38:32.205Z :- INFO   : Server running on port 5000
+2022-12-03T00:39:21.792Z :- INFO   : Connected to MongoDB
+2022-12-03T00:39:21.797Z :- INFO   : Server running on port 5000
+2022-12-03T00:41:00.019Z :- INFO   : Connected to MongoDB
+2022-12-03T00:41:00.023Z :- INFO   : Server running on port 5000
+2022-12-03T00:41:24.027Z :- INFO   : Connected to MongoDB
+2022-12-03T00:41:24.031Z :- INFO   : Server running on port 5000
+2022-12-03T00:42:39.498Z :- INFO   : Connected to MongoDB
+2022-12-03T00:42:39.502Z :- INFO   : Server running on port 5000
+2022-12-03T00:46:06.223Z :- INFO   : Connected to MongoDB
+2022-12-03T00:46:06.227Z :- INFO   : Server running on port 5000
+2022-12-03T00:47:35.921Z :- INFO   : Connected to MongoDB
+2022-12-03T00:47:35.925Z :- INFO   : Server running on port 5000
+2022-12-03T00:47:41.878Z :- INFO   : Connected to MongoDB
+2022-12-03T00:47:41.882Z :- INFO   : Server running on port 5000
+2022-12-03T01:01:36.502Z :- INFO   : Connected to MongoDB
+2022-12-03T01:01:36.506Z :- INFO   : Server running on port 5000
+2022-12-03T01:03:12.543Z :- INFO   : Connected to MongoDB
+2022-12-03T01:03:12.547Z :- INFO   : Server running on port 5000
+2022-12-03T02:54:57.622Z :- INFO   : Connected to MongoDB
+2022-12-03T02:55:35.378Z :- INFO   : Connected to MongoDB
+2022-12-03T02:55:35.383Z :- INFO   : Server running on port 5000
+2022-12-03T02:55:38.983Z :- INFO   : Incoming ->Method: [GET] - Url: [/] - IP: [::1]
+2022-12-03T02:55:38.989Z :- INFO   : Incoming ->Method: [GET] - Url: [/] - IP: [::1] -Status Code : [200]
+2022-12-03T02:56:35.559Z :- INFO   : Connected to MongoDB
+2022-12-03T02:56:35.565Z :- INFO   : Server running on port 5000
+2022-12-03T02:56:35.564Z :- INFO   : Connected to MongoDB
+2022-12-03T02:57:54.392Z :- INFO   : Connected to MongoDB
+2022-12-03T02:57:54.397Z :- INFO   : Server running on port 5000
+2022-12-03T02:57:54.441Z :- INFO   : Connected to MongoDB
+2022-12-03T02:57:56.190Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-03T02:57:56.213Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]

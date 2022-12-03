@@ -1,5 +1,5 @@
 import mongoose, { ConnectOptions } from "mongoose";
-import logger from "../utility/logger";
+import Logger from "../utility/logger";
 
 const options = {
   useNewUrlParser: true,
@@ -9,7 +9,7 @@ const dbConnetion = async (uri: string | undefined) => {
   try {
     return mongoose.connect(uri!, options as ConnectOptions);
   } catch (error) {
-    logger.error(error);
+    Logger.error(error);
   }
 };
 

@@ -1,6 +1,7 @@
-import { Schema, Model, Types } from "mongoose";
+import { Schema, Model, Types, model } from "mongoose";
 import validator from "validator";
 import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 enum GenderEnum {
   male = "male",
@@ -22,8 +23,8 @@ export interface IUser {
   gender: GenderEnum;
   profilePicture: string;
   coverPicture: string;
-  followers: Types.Array<string>;
-  followings: Types.Array<string>;
+  followers: Types.Array<Types.ObjectId>;
+  followings: Types.Array<Types.ObjectId>;
   userRole: UserRoleEnum;
   bio: string;
   city: string;
@@ -31,9 +32,13 @@ export interface IUser {
   relationship: number;
   otherSoialMedia: Types.Array<string>;
 }
-export interface UserDocument extends Document, IUser {}
 
-const UserSchema = new Schema<IUser>(
+export interface UserDocument extends Document, IUser {
+  generateAuthToken(): string;
+  isValidPassword(recievedPassword: string): Promise<boolean>;
+}
+
+const UserSchema: Schema<IUser> = new Schema<IUser>(
   {
     email: {
       type: String,
@@ -59,7 +64,7 @@ const UserSchema = new Schema<IUser>(
     },
     gender: {
       type: String,
-      enum: ["male", "female", "other"],
+      enum: Object.values(GenderEnum),
     },
     profilePicture: {
       type: String,
@@ -70,17 +75,17 @@ const UserSchema = new Schema<IUser>(
       default: "",
     },
     followers: {
-      type: Array,
+      type: [Types.ObjectId],
       default: [],
     },
     followings: {
-      type: Array,
+      type: [Types.ObjectId],
       default: [],
     },
     userRole: {
       type: String,
-      enum: ["admin", "user", "moderator"],
-      default: "user",
+      enum: Object.values(UserRoleEnum),
+      default: UserRoleEnum.user,
     },
     bio: {
       type: String,
@@ -99,17 +104,34 @@ const UserSchema = new Schema<IUser>(
       enum: [1, 2, 3],
     },
     otherSoialMedia: {
-      type: Array,
+      type: [String],
       default: [],
     },
   },
   { timestamps: true }
 );
 
-UserSchema.pre("save", async function (next) {
+// Hash the password before saving the user model
+UserSchema.pre<IUser>("save", async function (next) {
   const salt = await bcrypt.genSalt(10);
-  this.password = await bcrypt.genSalt(this.password, salt);
+  this.password = await bcrypt.hash(this.password, salt);
   next();
 });
 
-export default mongoose.model<UserDocument>("User", UserSchema);
+// Compare the entered password to the hashed password in the database
+UserSchema.methods.isValidPassword = async function (
+  recievedPassword: string
+): Promise<boolean> {
+  const isValid = await bcrypt.compare(recievedPassword, this.password);
+  return isValid;
+};
+
+//Create a JWT token for the user
+UserSchema.methods.generateAuthToken = function (): string {
+  return jwt.sign(
+    { id: this._id, userRole: this.userRole },
+    process.env.JWT_SECRET_KEY!,
+    { expiresIn: "1d" }
+  );
+};
+export default model<UserDocument>("User", UserSchema);

@@ -1,4 +1,4 @@
-import winston, { transports, format } from "winston";
+import winston, { transports, format, config } from "winston";
 
 const customeLoggerFormat = format.combine(
   format.timestamp(),
@@ -7,7 +7,7 @@ const customeLoggerFormat = format.combine(
   })
 );
 
-const logger = winston.createLogger({
+const logger: winston.Logger = winston.createLogger({
   format: customeLoggerFormat,
   level: "debug",
   transports: [
@@ -15,6 +15,10 @@ const logger = winston.createLogger({
     new transports.File({ filename: "logs/error.log", level: "error" }),
     new transports.File({ filename: "logs/info.log", level: "info" }),
     new transports.File({ filename: "logs/debug.log", level: "debug" }),
+    new transports.File({
+      filename: "logs/requestInfo.log",
+      level: "requestInfo",
+    }),
   ],
 });
 
