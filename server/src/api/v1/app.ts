@@ -1,12 +1,18 @@
 import express, { Application, Request, Response, NextFunction } from "express";
+import "express-async-errors";
 import Logger from "./utility/logger";
-import DbConnetion from "./config/dbConfig";
+import dbConnetion from "./config/dbConfig";
 import dotenv from "dotenv";
-import AuthRoute from "./route/authRoute";
+import authRoute from "./route/authRoute";
 import RequestLogMiddleware from "./middleware/requestLog";
 import cors from "cors";
+import errorHandler from "./middleware/errorHandler";
 
 const app: Application = express();
+//**Parse incoming Request Object as a JSON Object  */
+app.use(express.json());
+//**Accept html form data(Url encoded data)  */
+app.use(express.urlencoded({ extended: true }));
 
 const CorsOptions: cors.CorsOptions = {
   origin: "*",
@@ -16,14 +22,17 @@ const CorsOptions: cors.CorsOptions = {
 
 dotenv.config();
 
+//**Enable CORS */
+app.use(cors(CorsOptions));
+
 //**Connect to MongoDB **/
-DbConnetion(process.env.MONGO_URI)
+dbConnetion(process.env.MONGO_URI)
   .then(() => {
     Logger.info("Connected to MongoDB");
     StartServer();
   })
   .catch((error) => {
-    Logger.error("Unable to connect", error.message);
+    Logger.error("Unable to connect" + error.message);
   });
 
 //** Only start the server if Mongo Connects**/
@@ -31,22 +40,17 @@ DbConnetion(process.env.MONGO_URI)
 const StartServer = function () {
   app.use(RequestLogMiddleware);
 
-  //**Parse incoming Request Object as a JSON Object  */
-  app.use(express.json());
-  //**Accept html form data(Url encoded data)  */
-  app.use(express.urlencoded({ extended: true }));
-
-  //**Enable CORS */
-  app.use(cors(CorsOptions));
-
   //**Routes */
-
   /** Deafult route */
   app.get("/", (req: Request, res: Response) => {
     res.status(200).json({ msg: "Welcome to the API" });
   });
 
-  app.use("/api/v1/auth/", AuthRoute);
+  /** Auth Routes */
+  app.use("/api/v1/auth/", authRoute);
+
+  // //**Custom Error Handler Middleware */
+  app.use(errorHandler);
 
   app.listen(process.env.PORT || 5000, (): void => {
     Logger.info("Server running on port 5000");

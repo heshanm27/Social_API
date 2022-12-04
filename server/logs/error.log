@@ -1,2 +1,15 @@
 2022-12-01T07:11:46.745Z :- ERROR  : Server connetion error
 2022-12-01T14:25:05.645Z :- ERROR  : bad auth : Authentication failed.
+2022-12-03T16:23:06.027Z :- ERROR  : Unable to connect
+2022-12-03T16:23:06.030Z :- ERROR  : Unable to connect
+2022-12-03T16:23:47.170Z :- ERROR  : Unable to connect
+2022-12-03T16:24:26.005Z :- ERROR  : Unable to connect
+2022-12-03T16:24:35.405Z :- ERROR  : Unable to connect
+2022-12-03T16:24:46.442Z :- ERROR  : Unable to connect
+2022-12-03T16:24:57.768Z :- ERROR  : Unable to connect
+2022-12-03T16:34:38.719Z :- ERROR  : Unable to connect
+2022-12-03T16:40:52.694Z :- ERROR  : Unable to connect
+2022-12-03T16:41:27.036Z :- ERROR  : Unable to connect
+2022-12-03T16:42:00.193Z :- ERROR  : Unable to connectThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2022-12-03T17:03:35.793Z :- ERROR  : User validation failed: userFullName: Full name is required, email: Email is required, password: Password is required
+2022-12-03T17:04:56.995Z :- ERROR  : User validation failed: userFullName: Full name is required, email: Email is required, password: Password is required
