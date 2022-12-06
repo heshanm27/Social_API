@@ -15,10 +15,9 @@ enum UserRoleEnum {
 }
 
 export interface IUser {
-  _id: Types.ObjectId;
   email: string;
   password: string;
-  userFullName: string;
+  fullName: string;
   age: number;
   gender: GenderEnum;
   profilePicture: string;
@@ -51,10 +50,9 @@ const UserSchema: Schema<IUser> = new Schema<IUser>(
       required: [true, "Password is required"],
       min: 6,
     },
-    userFullName: {
+    fullName: {
       type: String,
       required: [true, "Full name is required"],
-      unique: true,
       max: 100,
       min: 3,
     },
@@ -130,7 +128,7 @@ UserSchema.methods.isValidPassword = async function (
 UserSchema.methods.generateAuthToken = function (): string {
   return jwt.sign(
     { id: this._id, userRole: this.userRole },
-    process.env.JWT_SECRET_KEY!,
+    process.env.JWT_SECRET!,
     { expiresIn: "1d" }
   );
 };

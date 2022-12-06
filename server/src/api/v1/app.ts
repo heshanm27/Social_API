@@ -9,6 +9,8 @@ import cors from "cors";
 import errorHandler from "./middleware/errorHandler";
 
 const app: Application = express();
+dotenv.config();
+
 //**Parse incoming Request Object as a JSON Object  */
 app.use(express.json());
 //**Accept html form data(Url encoded data)  */
@@ -19,8 +21,6 @@ const CorsOptions: cors.CorsOptions = {
   methods: "GET,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
-
-dotenv.config();
 
 //**Enable CORS */
 app.use(cors(CorsOptions));

@@ -1,19 +1,24 @@
 import UserDocument from "../models/User";
 import { NextFunction, Request, Response } from "express";
 import { Error } from "mongoose";
-import { BadRequestError } from "../error/errorClasses";
+import { BadRequestError } from "../error";
 
 const signUp = async (req: Request, res: Response, next: NextFunction) => {
-  const { username, email, password } = req.body;
+  const { username, email, password, fullName } = req.body;
   try {
-    const user = await UserDocument.create({ username, email, password });
+    const user = await UserDocument.create({
+      username,
+      email,
+      password,
+      fullName,
+    });
     const token = user.generateAuthToken();
     res.status(201).json({ user, token });
   } catch (error: any) {
-    // if (error instanceof Error.ValidationError) {
-    //   next(new BadRequestError(error.message));
-    //   //   res.json({ error: error.message });
-    // }
+    if (error instanceof Error.ValidationError) {
+      throw new BadRequestError(error.message);
+    }
+    throw new Error(error.message);
   }
 };
 

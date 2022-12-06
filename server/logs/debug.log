@@ -270,3 +270,73 @@
 2022-12-04T02:28:18.992Z :- INFO   : Connected to MongoDB
 2022-12-04T02:28:18.996Z :- INFO   : Server running on port 5000
 2022-12-04T02:28:20.025Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-04T08:21:52.112Z :- INFO   : Connected to MongoDB
+2022-12-04T08:21:52.116Z :- INFO   : Server running on port 5000
+2022-12-04T08:21:53.965Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-04T08:21:53.981Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-04T08:22:06.375Z :- INFO   : Connected to MongoDB
+2022-12-04T08:22:06.379Z :- INFO   : Server running on port 5000
+2022-12-04T08:22:07.393Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-04T08:22:07.403Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-04T08:22:34.404Z :- INFO   : Connected to MongoDB
+2022-12-04T08:22:34.408Z :- INFO   : Server running on port 5000
+2022-12-06T04:44:54.704Z :- INFO   : Connected to MongoDB
+2022-12-06T04:44:54.708Z :- INFO   : Server running on port 5000
+2022-12-06T04:47:49.108Z :- INFO   : Connected to MongoDB
+2022-12-06T04:47:49.112Z :- INFO   : Server running on port 5000
+2022-12-06T04:49:00.133Z :- INFO   : Connected to MongoDB
+2022-12-06T04:49:00.138Z :- INFO   : Server running on port 5000
+2022-12-06T14:26:05.359Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:26:05.395Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:27:46.652Z :- INFO   : Connected to MongoDB
+2022-12-06T14:27:46.657Z :- INFO   : Server running on port 5000
+2022-12-06T14:27:59.789Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:27:59.806Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:28:11.757Z :- INFO   : Connected to MongoDB
+2022-12-06T14:28:11.762Z :- INFO   : Server running on port 5000
+2022-12-06T14:28:17.989Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:28:18.007Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:28:19.564Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:28:19.570Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:28:30.178Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:28:30.184Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:29:08.092Z :- INFO   : Connected to MongoDB
+2022-12-06T14:29:08.097Z :- INFO   : Server running on port 5000
+2022-12-06T14:29:08.980Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:29:09.138Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:29:43.477Z :- INFO   : Connected to MongoDB
+2022-12-06T14:29:43.482Z :- INFO   : Server running on port 5000
+2022-12-06T14:29:46.136Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:29:46.253Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:31:34.768Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:31:34.892Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:32:17.219Z :- INFO   : Connected to MongoDB
+2022-12-06T14:32:17.223Z :- INFO   : Server running on port 5000
+2022-12-06T14:32:19.247Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:32:19.363Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:32:21.472Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:32:21.602Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:32:54.706Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:32:54.889Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:33:05.853Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:33:06.004Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:34:24.707Z :- INFO   : Connected to MongoDB
+2022-12-06T14:34:24.712Z :- INFO   : Server running on port 5000
+2022-12-06T14:34:24.844Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:34:25.327Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:37:41.328Z :- INFO   : Connected to MongoDB
+2022-12-06T14:37:41.333Z :- INFO   : Server running on port 5000
+2022-12-06T14:37:42.200Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:37:42.320Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:37:58.534Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:37:58.650Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:39:33.004Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:39:33.104Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:39:54.733Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:39:54.847Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:41:09.462Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:41:09.570Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T14:41:38.124Z :- INFO   : Connected to MongoDB
+2022-12-06T14:41:38.129Z :- INFO   : Server running on port 5000
+2022-12-06T14:41:51.907Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:41:52.036Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
