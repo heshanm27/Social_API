@@ -1,13 +1,13 @@
 import express, { Application, Request, Response, NextFunction } from "express";
 import "express-async-errors";
 import Logger from "./utility/logger";
-import dbConnetion from "./config/dbConfig";
+import dbConnetion from "./config/db.config";
 import dotenv from "dotenv";
-import authRoute from "./route/authRoute";
+import authRoute from "./route/auth.route";
 import RequestLogMiddleware from "./middleware/requestLog";
 import cors from "cors";
 import errorHandler from "./middleware/errorHandler";
-
+import redisClient from "./config/redis.config";
 const app: Application = express();
 dotenv.config();
 
@@ -27,8 +27,9 @@ app.use(cors(CorsOptions));
 
 //**Connect to MongoDB **/
 dbConnetion(process.env.MONGO_URI)
-  .then(() => {
+  .then(async () => {
     Logger.info("Connected to MongoDB");
+    await redisClient.connect();
     StartServer();
   })
   .catch((error) => {

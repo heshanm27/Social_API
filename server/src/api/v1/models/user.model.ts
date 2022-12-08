@@ -118,9 +118,9 @@ UserSchema.pre<IUser>("save", async function (next) {
 
 // Compare the entered password to the hashed password in the database
 UserSchema.methods.isValidPassword = async function (
-  recievedPassword: string
+  candidatePassword: string
 ): Promise<boolean> {
-  const isValid = await bcrypt.compare(recievedPassword, this.password);
+  const isValid = await bcrypt.compare(candidatePassword, this.password);
   return isValid;
 };
 

@@ -7,7 +7,6 @@ router.use((req: Request, res: Response, next: NextFunction) => {
   Logger.info(
     `Incoming ->Method: [${req.method}] - Url: [${req.originalUrl}] - IP: [${req.socket.remoteAddress}]`
   );
-
   res.on("finish", () => {
     /**Log the Response */
     Logger.info(

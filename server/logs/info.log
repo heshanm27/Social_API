@@ -339,3 +339,271 @@
 2022-12-06T14:41:38.129Z :- INFO   : Server running on port 5000
 2022-12-06T14:41:51.907Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
 2022-12-06T14:41:52.036Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:44:10.240Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:44:10.358Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:44:44.184Z :- INFO   : Connected to MongoDB
+2022-12-06T14:44:44.189Z :- INFO   : Server running on port 5000
+2022-12-06T14:44:50.829Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:44:51.043Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:44:54.114Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:44:54.261Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:46:30.390Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:46:30.559Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:46:34.780Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:46:34.889Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:46:55.277Z :- INFO   : Connected to MongoDB
+2022-12-06T14:46:55.281Z :- INFO   : Server running on port 5000
+2022-12-06T14:46:56.662Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:46:56.783Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:46:57.714Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:46:57.827Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:47:08.465Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:47:08.670Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:47:09.896Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:47:10.000Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:47:14.836Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:47:15.031Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:48:46.697Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:48:46.699Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:49:44.404Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:49:44.599Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:49:46.920Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:49:47.022Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:49:53.815Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:49:53.817Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:50:02.875Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:50:02.878Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-06T14:57:52.348Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:57:52.536Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T14:58:39.130Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T14:58:39.232Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:07:27.502Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:07:27.603Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:07:28.455Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:07:28.583Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:07:29.250Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:07:29.386Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:07:42.188Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:07:42.324Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:07:44.286Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:07:44.430Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:08:08.336Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:08:08.475Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [201]
+2022-12-06T15:08:57.612Z :- INFO   : Connected to MongoDB
+2022-12-06T15:08:57.616Z :- INFO   : Server running on port 5000
+2022-12-06T15:08:57.905Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:08:58.087Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T15:09:34.754Z :- INFO   : Connected to MongoDB
+2022-12-06T15:09:34.759Z :- INFO   : Server running on port 5000
+2022-12-06T15:09:41.884Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:09:42.050Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
+2022-12-06T15:11:26.161Z :- INFO   : Connected to MongoDB
+2022-12-06T15:11:26.166Z :- INFO   : Server running on port 5000
+2022-12-06T15:11:27.942Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-06T15:11:28.072Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-07T03:55:39.666Z :- INFO   : Connected to MongoDB
+2022-12-07T03:55:39.670Z :- INFO   : Server running on port 5000
+2022-12-07T03:58:20.628Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
+2022-12-07T03:58:20.750Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
+2022-12-07T03:59:31.150Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T03:59:31.198Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T03:59:49.327Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T03:59:49.374Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T03:59:57.906Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T03:59:57.951Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T03:59:59.109Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T03:59:59.154Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:00:02.014Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:00:02.068Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:01:02.381Z :- INFO   : Connected to MongoDB
+2022-12-07T04:01:02.385Z :- INFO   : Server running on port 5000
+2022-12-07T04:01:03.471Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:01:03.535Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:13.639Z :- INFO   : Connected to MongoDB
+2022-12-07T04:02:13.644Z :- INFO   : Server running on port 5000
+2022-12-07T04:02:18.766Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:18.883Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:24.181Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:24.279Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:42.338Z :- INFO   : Connected to MongoDB
+2022-12-07T04:02:42.342Z :- INFO   : Server running on port 5000
+2022-12-07T04:02:45.624Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:45.685Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:46.686Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:46.738Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:47.517Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:47.576Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:02:48.265Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:02:48.317Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:03:17.901Z :- INFO   : Connected to MongoDB
+2022-12-07T04:03:17.905Z :- INFO   : Server running on port 5000
+2022-12-07T04:03:19.664Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:03:19.771Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:04:10.939Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:04:11.039Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:04:44.768Z :- INFO   : Connected to MongoDB
+2022-12-07T04:04:44.773Z :- INFO   : Server running on port 5000
+2022-12-07T04:04:46.497Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:04:46.662Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:04:58.983Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:04:59.139Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:05:42.980Z :- INFO   : Connected to MongoDB
+2022-12-07T04:05:42.985Z :- INFO   : Server running on port 5000
+2022-12-07T04:05:48.222Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:05:48.389Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:05:55.817Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:05:55.973Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:07:13.722Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:07:13.773Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:07:18.574Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:07:18.729Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:07:40.762Z :- INFO   : Connected to MongoDB
+2022-12-07T04:07:40.766Z :- INFO   : Server running on port 5000
+2022-12-07T04:07:41.749Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:07:41.853Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:07:45.630Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:07:45.727Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:07:49.722Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:07:49.818Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:08:09.908Z :- INFO   : Connected to MongoDB
+2022-12-07T04:08:09.912Z :- INFO   : Server running on port 5000
+2022-12-07T04:08:17.746Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:08:17.904Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:08:19.935Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:08:20.088Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:09:06.593Z :- INFO   : Connected to MongoDB
+2022-12-07T04:09:06.597Z :- INFO   : Server running on port 5000
+2022-12-07T04:09:09.301Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:09:09.466Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:09:22.445Z :- INFO   : Connected to MongoDB
+2022-12-07T04:09:22.450Z :- INFO   : Server running on port 5000
+2022-12-07T04:09:22.853Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:09:23.013Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:09:27.878Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:09:28.027Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:09:33.654Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:09:33.807Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:09:37.495Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:09:37.643Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:14:05.996Z :- INFO   : Connected to MongoDB
+2022-12-07T04:14:06.000Z :- INFO   : Server running on port 5000
+2022-12-07T04:22:19.313Z :- INFO   : Connected to MongoDB
+2022-12-07T04:22:19.318Z :- INFO   : Server running on port 5000
+2022-12-07T04:34:12.418Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:34:12.524Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [200]
+2022-12-07T04:39:37.045Z :- INFO   : Connected to MongoDB
+2022-12-07T04:39:37.049Z :- INFO   : Server running on port 5000
+2022-12-07T04:39:51.368Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:39:51.423Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:39:54.675Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:39:54.727Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:44:23.910Z :- INFO   : Connected to MongoDB
+2022-12-07T04:44:23.914Z :- INFO   : Server running on port 5000
+2022-12-07T04:46:44.988Z :- INFO   : Connected to MongoDB
+2022-12-07T04:46:44.994Z :- INFO   : Server running on port 5000
+2022-12-07T04:46:48.928Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:46:48.980Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [400]
+2022-12-07T04:47:53.141Z :- INFO   : Connected to MongoDB
+2022-12-07T04:47:53.146Z :- INFO   : Server running on port 5000
+2022-12-07T04:47:53.234Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1]
+2022-12-07T04:47:53.239Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signIn] - IP: [::1] -Status Code : [500]
+2022-12-08T14:14:20.463Z :- INFO   : Connected to MongoDB
+2022-12-08T14:14:20.471Z :- INFO   : Server running on port 5000
+2022-12-08T14:28:25.582Z :- INFO   : Connected to MongoDB
+2022-12-08T14:28:25.586Z :- INFO   : Redis connection established successfully
+2022-12-08T14:28:25.588Z :- INFO   : Server running on port 5000
+2022-12-08T14:31:42.561Z :- ERROR  : Redis connection error: Socket closed unexpectedly
+2022-12-08T14:31:42.562Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:42.564Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:42.565Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:42.567Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:42.628Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:42.629Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:42.735Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:42.737Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:42.890Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:42.892Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:43.093Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:43.094Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:43.358Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:43.360Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:43.668Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:43.669Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:44.020Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:44.022Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:44.428Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:44.429Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:44.880Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:44.881Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:45.393Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:45.395Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:45.901Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:45.902Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:46.404Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:46.405Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:46.916Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:46.918Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:47.427Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:47.428Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:47.939Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:47.940Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:48.455Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:48.456Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:48.968Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:48.970Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:49.485Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:49.486Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:49.989Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:49.990Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:50.505Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:50.506Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:51.010Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:51.011Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:51.513Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:51.514Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:52.016Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:52.017Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:52.530Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:52.531Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:53.045Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:53.046Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:53.555Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:53.556Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:54.063Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:54.064Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:54.566Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:54.567Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:55.074Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:55.075Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:55.589Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:55.591Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:56.105Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:56.106Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:56.607Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:56.608Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:57.111Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:57.113Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:57.615Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:57.619Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:58.133Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:58.137Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:58.638Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:58.641Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:59.142Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:59.146Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+2022-12-08T14:31:59.650Z :- INFO   : Redis reconnecting
+2022-12-08T14:31:59.654Z :- INFO   : Redis connection established successfully
+2022-12-08T14:34:22.963Z :- INFO   : Connected to MongoDB
+2022-12-08T14:34:22.967Z :- INFO   : Redis connection established successfully
+2022-12-08T14:34:22.970Z :- INFO   : Server running on port 5000
+2022-12-08T14:34:53.272Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1]
+2022-12-08T14:34:53.282Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1] -Status Code : [200]
+2022-12-08T14:35:59.919Z :- INFO   : Connected to MongoDB
+2022-12-08T14:35:59.923Z :- INFO   : Redis connection established successfully
+2022-12-08T14:35:59.925Z :- INFO   : Server running on port 5000
+2022-12-08T14:35:59.990Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1]
+2022-12-08T14:35:59.994Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1] -Status Code : [200]
+2022-12-08T14:36:00.689Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1]
+2022-12-08T14:36:00.691Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1] -Status Code : [200]
+2022-12-08T14:36:01.600Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1]
+2022-12-08T14:36:01.602Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/auth/test] - IP: [::1] -Status Code : [200]
