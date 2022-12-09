@@ -106,7 +106,3 @@
 2022-12-08T14:39:04.226Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
 2022-12-08T14:39:04.738Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
 2022-12-08T14:39:05.253Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-2022-12-08T14:39:05.769Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-2022-12-08T14:39:06.282Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-2022-12-08T14:39:06.798Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-2022-12-08T14:39:07.303Z :- ERROR  : Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
