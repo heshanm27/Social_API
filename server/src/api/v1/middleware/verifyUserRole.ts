@@ -1,4 +1,3 @@
-import { throws } from "assert";
 import { NextFunction, Request, Response } from "express";
 import { AccessDenied } from "../error/index";
 
