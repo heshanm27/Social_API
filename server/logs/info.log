@@ -256,24 +256,6 @@
 2022-12-04T02:25:47.859Z :- INFO   : Server running on port 5000
 2022-12-04T02:25:50.874Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
 2022-12-04T02:25:50.887Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
-2022-12-04T02:26:10.495Z :- INFO   : Connected to MongoDB
-2022-12-04T02:26:10.500Z :- INFO   : Server running on port 5000
-2022-12-04T02:26:12.810Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
-2022-12-04T02:26:12.823Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
-2022-12-04T02:27:27.572Z :- INFO   : Connected to MongoDB
-2022-12-04T02:27:27.576Z :- INFO   : Server running on port 5000
-2022-12-04T02:27:29.858Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
-2022-12-04T02:27:29.869Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
-2022-12-04T02:28:08.195Z :- INFO   : Connected to MongoDB
-2022-12-04T02:28:08.199Z :- INFO   : Server running on port 5000
-2022-12-04T02:28:18.992Z :- INFO   : Connected to MongoDB
-2022-12-04T02:28:18.996Z :- INFO   : Server running on port 5000
-2022-12-04T02:28:20.025Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
-2022-12-04T08:21:52.112Z :- INFO   : Connected to MongoDB
-2022-12-04T08:21:52.116Z :- INFO   : Server running on port 5000
-2022-12-04T08:21:53.965Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
-2022-12-04T08:21:53.981Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [400]
-2022-12-04T08:22:06.375Z :- INFO   : Connected to MongoDB
 2022-12-04T08:22:06.379Z :- INFO   : Server running on port 5000
 2022-12-04T08:22:07.393Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1]
 2022-12-04T08:22:07.403Z :- INFO   : Incoming ->Method: [POST] - Url: [/api/v1/auth/signUp] - IP: [::1] -Status Code : [500]
