@@ -5585,3 +5585,5 @@
 2022-12-09T10:07:15.632Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/post] - IP: [::1] -Status Code : [200]
 2022-12-09T10:07:19.573Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/post] - IP: [::1]
 2022-12-09T10:07:19.583Z :- INFO   : Incoming ->Method: [GET] - Url: [/api/v1/post] - IP: [::1] -Status Code : [401]
+2022-12-09T13:08:56.329Z :- INFO   : Connected to MongoDB
+2022-12-09T13:08:56.333Z :- INFO   : Server running on port 5000
