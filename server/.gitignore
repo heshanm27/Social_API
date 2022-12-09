@@ -1,8 +1,8 @@
 node_modules
 
 # production
-server/dist/
-server/logs/
+dist/
+logs/
 
 # misc
 .DS_Store
