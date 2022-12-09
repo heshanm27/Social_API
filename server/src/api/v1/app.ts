@@ -10,6 +10,7 @@ import cors from "cors";
 import errorHandler from "./middleware/errorHandler";
 import redisClient from "./config/redis.config";
 import VerifyJWT from "./middleware/verifyJWT";
+import RefreshToken from "./middleware/refreshToken";
 const app: Application = express();
 dotenv.config();
 

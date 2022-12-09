@@ -5,7 +5,6 @@ const VerifyUserRole =
   (...allowedRole: Array<String>) =>
   (req: Request, res: Response, next: NextFunction) => {
     if (!req?.role) throw new AccessDenied("Access Denied");
-
     if (allowedRole.includes(req.role)) {
       next();
     } else {

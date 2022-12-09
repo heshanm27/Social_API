@@ -47,6 +47,7 @@ const signIn = async (req: Request, res: Response) => {
   const refreshToken = foundUser.genarateRefreshToken();
   foundUser.refreshToken.push(refreshToken);
   await foundUser.save();
+
   res.cookie("JWTRefreshToken", refreshToken, {
     httpOnly: true,
     sameSite: "none",
