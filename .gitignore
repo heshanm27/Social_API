@@ -1,8 +1,8 @@
 node_modules
 
 # production
-/build
-
+/dist
+/logs
 # misc
 .DS_Store
 .env.local
@@ -13,3 +13,4 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
