@@ -1,8 +1,9 @@
 node_modules
 
 # production
-/dist/
-/logs/
+/server/dist/
+/server/logs/
+
 # misc
 .DS_Store
 .env.local
