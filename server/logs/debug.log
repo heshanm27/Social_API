@@ -9,10 +9,7 @@
 2022-12-01T14:05:07.825Z :- INFO   : Server running on port 5000
 2022-12-01T14:05:08.981Z :- INFO   : Connected to MongoDB
 2022-12-01T14:24:01.800Z :- INFO   : Connected to MongoDB
-2022-12-01T14:24:01.803Z :- INFO   : Server running on port 5000
-2022-12-01T14:25:05.645Z :- ERROR  : bad auth : Authentication failed.
-2022-12-01T14:26:04.821Z :- INFO   : Connected to MongoDB
-2022-12-01T14:26:04.825Z :- INFO   : Server running on port 5000
+
 2022-12-01T14:27:56.663Z :- INFO   : Connected to MongoDB
 2022-12-01T14:27:56.667Z :- INFO   : Server running on port 5000
 2022-12-01T14:34:39.689Z :- INFO   : Connected to MongoDB

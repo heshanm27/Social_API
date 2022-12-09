@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 #production
-logs/**/*.log
-dist/
+server/logs/**/*.log
+server/dist/
