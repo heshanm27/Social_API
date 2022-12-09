@@ -2,17 +2,23 @@ import UserDocument from "../models/user.model";
 import { NextFunction, Request, Response } from "express";
 import { Error } from "mongoose";
 import { BadRequestError } from "../error/index";
+import bcrypt from "bcrypt";
 
 const signUp = async (req: Request, res: Response, next: NextFunction) => {
-  const { email, password, fullName } = req.body;
+  const { email, password } = req.body;
   try {
+    //salt and hash password
+    const salt = await bcrypt.genSalt(10);
+    const hashPassword = await bcrypt.hash(password, salt);
+
+    //create user and save in database
     const user = await UserDocument.create({
       email,
-      password,
-      fullName,
+      password: hashPassword,
     });
-    const token = user.generateAuthToken();
-    res.status(201).json({ user, token });
+
+    // const token = user.generateAuthToken();
+    res.status(200).json({ msg: "User created successfully", data: {} });
   } catch (error: any) {
     if (error instanceof Error.ValidationError) {
       throw new BadRequestError(error.message);
@@ -27,20 +33,25 @@ const signUp = async (req: Request, res: Response, next: NextFunction) => {
 const signIn = async (req: Request, res: Response) => {
   const { email, password } = req.body;
 
-  const user = await UserDocument.findOne({ email });
-
-  if (!user) {
-    throw new BadRequestError("Account does not exist for this email");
+  const foundUser = await UserDocument.findOne({ email });
+  if (!foundUser) {
+    throw new BadRequestError("Can't find account associate with this email");
   }
 
-  const isValid = await user.isValidPassword(password);
+  const isValid = await foundUser.isValidPassword(password);
 
   if (!isValid) {
     throw new BadRequestError("Email or password is incorrect");
   }
-  const token = user.generateAuthToken();
-
-  res.status(200).json({ token });
+  const token = foundUser.generateAccessToken();
+  const refreshToken = foundUser.genarateRefreshToken();
+  foundUser.refreshToken.push(refreshToken);
+  await foundUser.save();
+  res.cookie("JWTRefreshToken", refreshToken, {
+    httpOnly: true,
+    sameSite: "none",
+  });
+  res.status(200).json({ msg: "Successfuly sign in", token });
 };
 
 export { signUp, signIn };

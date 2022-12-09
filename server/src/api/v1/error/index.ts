@@ -1,6 +1,12 @@
 import CustomError from "./customError";
-import NotFoundError from "./notFoundError";
+import NotFoundError from "./notFound";
 import Unauthenticated from "./unauthenticated";
-import BadRequestError from "./badRequestError";
-
-export { CustomError, NotFoundError, BadRequestError, Unauthenticated };
+import BadRequestError from "./badRequest";
+import AccessDenied from "./accessDenied";
+export {
+  CustomError,
+  NotFoundError,
+  BadRequestError,
+  Unauthenticated,
+  AccessDenied,
+};

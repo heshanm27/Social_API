@@ -4,10 +4,12 @@ import Logger from "./utility/logger";
 import dbConnetion from "./config/db.config";
 import dotenv from "dotenv";
 import authRoute from "./route/auth.route";
+import postRoute from "./route/post.route";
 import RequestLogMiddleware from "./middleware/requestLog";
 import cors from "cors";
 import errorHandler from "./middleware/errorHandler";
 import redisClient from "./config/redis.config";
+import VerifyJWT from "./middleware/verifyJWT";
 const app: Application = express();
 dotenv.config();
 
@@ -29,7 +31,7 @@ app.use(cors(CorsOptions));
 dbConnetion(process.env.MONGO_URI)
   .then(async () => {
     Logger.info("Connected to MongoDB");
-    await redisClient.connect();
+    // await redisClient.connect();
     StartServer();
   })
   .catch((error) => {
@@ -50,6 +52,10 @@ const StartServer = function () {
   /** Auth Routes */
   app.use("/api/v1/auth/", authRoute);
 
+  /**Verify JWT Validation */
+  app.use(VerifyJWT);
+
+  app.use("/api/v1/post", postRoute);
   // //**Custom Error Handler Middleware */
   app.use(errorHandler);
 

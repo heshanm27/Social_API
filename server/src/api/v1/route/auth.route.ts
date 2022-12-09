@@ -4,7 +4,7 @@ import testMiddleware from "../middleware/testMidlleware";
 import redisClient from "../config/redis.config";
 const router = express.Router();
 
-router.route("/signin").post(testMiddleware(), signIn);
+router.route("/signin").post(signIn);
 router.route("/signup").post(signUp);
 router.route("/test").get(async (req, res) => {
   redisClient.set("test", "test");

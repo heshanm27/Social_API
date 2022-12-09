@@ -3,7 +3,7 @@ import CustomError from "../error/customError";
 import status from "http-status-codes";
 import Logger from "../utility/logger";
 
-const errorHandlerMiddleware = (
+const ErrorHandlerMiddleware = (
   err: Error,
   req: Request,
   res: Response,
@@ -19,4 +19,4 @@ const errorHandlerMiddleware = (
   });
 };
 
-export default errorHandlerMiddleware;
+export default ErrorHandlerMiddleware;
