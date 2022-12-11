@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
-import CustomError from "../error/customError";
+import CustomError from "../../error/customError";
 import status from "http-status-codes";
-import Logger from "../utility/logger";
+import Logger from "../../utility/logger";
 
 const ErrorHandlerMiddleware = (
   err: Error,

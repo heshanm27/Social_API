@@ -1,21 +1,24 @@
 import express, { Application, Request, Response, NextFunction } from "express";
 import "express-async-errors";
+import cookieParser from "cookie-parser";
 import Logger from "./utility/logger";
 import dbConnetion from "./config/db.config";
 import dotenv from "dotenv";
-import authRoute from "./route/auth.route";
-import postRoute from "./route/post.route";
-import RequestLogMiddleware from "./middleware/requestLog";
+import authRoute from "./route/api/auth.route";
+import postRoute from "./route/api/post.route";
+import RequestLogMiddleware from "./middleware/common/requestLog";
 import cors from "cors";
-import errorHandler from "./middleware/errorHandler";
+import errorHandler from "./middleware/common/errorHandler";
 import redisClient from "./config/redis.config";
-import VerifyJWT from "./middleware/verifyJWT";
-import RefreshToken from "./middleware/refreshToken";
+import VerifyJWT from "./middleware/common/verifyJWT";
+
 const app: Application = express();
 dotenv.config();
 
 //**Parse incoming Request Object as a JSON Object  */
 app.use(express.json());
+app.use(cookieParser());
+
 //**Accept html form data(Url encoded data)  */
 app.use(express.urlencoded({ extended: true }));
 

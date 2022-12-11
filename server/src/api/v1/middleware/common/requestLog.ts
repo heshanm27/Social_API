@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
-import Logger from "../utility/logger";
+import Logger from "../../utility/logger";
 const router = Router();
 
 router.use((req: Request, res: Response, next: NextFunction) => {

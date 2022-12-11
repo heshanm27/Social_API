@@ -1,7 +1,6 @@
-import { NextFunction, Request, Response } from "express";
-import { Unauthenticated } from "../error/index";
+import { Request, Response, NextFunction } from "express";
+import { Unauthenticated } from "../../error/index";
 import JWT from "jsonwebtoken";
-import RefreshToken from "./refreshToken";
 
 const VerifyJWT = (req: Request, res: Response, next: NextFunction) => {
   const authHeader = req.headers.authorization || req.headers.Authorization;
@@ -17,20 +16,11 @@ const VerifyJWT = (req: Request, res: Response, next: NextFunction) => {
     token,
     process.env.JWT_ACCESS_SECRET!,
     (err: any, decoded: any) => {
-      console.log("decoded", decoded);
-      if (err && err.message === "jwt expired") {
-        RefreshToken()(req, res, next);
-      }
-      if (err && err.message === "invalid token") {
-        console.log("invalid token");
-        throw new Unauthenticated(err.message);
-      }
+      if (err) throw new Unauthenticated("Please login again");
       req.userID = decoded.id;
-      req.role = decoded.userRole;
+      next();
     }
   );
-
-  next();
 };
 
 export default VerifyJWT;

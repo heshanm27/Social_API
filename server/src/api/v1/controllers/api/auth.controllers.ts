@@ -1,7 +1,7 @@
-import UserDocument from "../models/user.model";
+import UserDocument from "../../models/api/user.model";
 import { NextFunction, Request, Response } from "express";
 import { Error } from "mongoose";
-import { BadRequestError } from "../error/index";
+import { BadRequestError } from "../../error/index";
 import bcrypt from "bcrypt";
 
 const signUp = async (req: Request, res: Response, next: NextFunction) => {
@@ -17,8 +17,10 @@ const signUp = async (req: Request, res: Response, next: NextFunction) => {
       password: hashPassword,
     });
 
-    // const token = user.generateAuthToken();
-    res.status(200).json({ msg: "User created successfully", data: {} });
+    //generate token
+    const token = user.generateAccessToken();
+
+    res.status(200).json({ msg: "Account created successfully", token });
   } catch (error: any) {
     if (error instanceof Error.ValidationError) {
       throw new BadRequestError(error.message);
@@ -33,7 +35,8 @@ const signUp = async (req: Request, res: Response, next: NextFunction) => {
 const signIn = async (req: Request, res: Response) => {
   const { email, password } = req.body;
 
-  const foundUser = await UserDocument.findOne({ email });
+  const foundUser = await UserDocument.findOne({ email }).exec();
+
   if (!foundUser) {
     throw new BadRequestError("Can't find account associate with this email");
   }

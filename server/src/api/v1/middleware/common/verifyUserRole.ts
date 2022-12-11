@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { AccessDenied } from "../error/index";
+import { AccessDenied } from "../../error/index";
 
 const VerifyUserRole =
   (...allowedRole: Array<String>) =>

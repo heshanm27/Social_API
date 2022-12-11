@@ -1,15 +1,6 @@
-import { Schema, Model, Types, model } from "mongoose";
+import { Schema, Types, model } from "mongoose";
 
-enum GenderEnum {
-  male = "male",
-  female = "female",
-  other = "other",
-}
-
-export interface IUserProfile {
-  fullName: string;
-  age: number;
-  gender: GenderEnum;
+export interface IProfile {
   profilePicture?: string;
   coverPicture?: string;
   followers?: Types.Array<Types.ObjectId>;
@@ -22,24 +13,10 @@ export interface IUserProfile {
   userRef: Types.ObjectId;
 }
 
-export interface UserProfileDocument extends Document, IUserProfile {}
+export interface ProfileDocument extends Document, IProfile {}
 
-const UserProfileSchema: Schema<IUserProfile> = new Schema<IUserProfile>(
+const ProfileSchema: Schema<IProfile> = new Schema<IProfile>(
   {
-    fullName: {
-      type: String,
-      required: [true, "Full name is required"],
-      max: 100,
-      min: 3,
-    },
-    age: {
-      type: Number,
-      min: 5,
-    },
-    gender: {
-      type: String,
-      enum: Object.values(GenderEnum),
-    },
     profilePicture: {
       type: String,
       default: "",
@@ -84,4 +61,4 @@ const UserProfileSchema: Schema<IUserProfile> = new Schema<IUserProfile>(
   { timestamps: true }
 );
 
-export default model<UserProfileDocument>("UserProfile", UserProfileSchema);
+export default model<ProfileDocument>("Profile", ProfileSchema);
